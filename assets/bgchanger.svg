@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="changerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181817"/>
+      <stop offset="100%" stop-color="#0f0f0e"/>
+    </linearGradient>
+    <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="100%" stop-color="#e4ff00"/>
+    </linearGradient>
+    <linearGradient id="gradB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#007aff"/>
+      <stop offset="100%" stop-color="#af52de"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#changerBg)"/>
+  <text x="50" y="50" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">03 / JAVASCRIPT &amp; DOM</text>
+  <text x="750" y="50" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">HTML · CSS · JAVASCRIPT</text>
+
+  <g transform="translate(160, 90)">
+    <circle cx="160" cy="150" r="110" fill="url(#gradA)" opacity="0.8"/>
+    <circle cx="340" cy="150" r="110" fill="url(#gradB)" opacity="0.75"/>
+
+    <rect x="110" y="60" width="280" height="175" rx="8" fill="rgba(18,18,18,0.7)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+    <text x="250" y="105" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="16" font-weight="700">document.body.style</text>
+    <text x="250" y="130" text-anchor="middle" fill="#e4ff00" font-family="monospace" font-size="12">background = '#E4FF00'</text>
+
+    <g transform="translate(145, 160)">
+      <circle cx="30" cy="20" r="11" fill="#e4ff00" stroke="#fff" stroke-width="2"/>
+      <circle cx="75" cy="20" r="11" fill="#007aff"/>
+      <circle cx="120" cy="20" r="11" fill="#ff3b30"/>
+      <circle cx="165" cy="20" r="11" fill="#af52de"/>
+      <circle cx="210" cy="20" r="11" fill="#141413" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    </g>
+  </g>
+
+  <text x="50" y="445" fill="rgba(255,255,255,0.03)" font-family="'Inter', sans-serif" font-size="80" font-weight="900" letter-spacing="-3">PALETTE</text>
+  <text x="750" y="445" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">JUNE 2025</text>
+</svg>

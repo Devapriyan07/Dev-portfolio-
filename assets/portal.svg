@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181817"/>
+      <stop offset="100%" stop-color="#0f0f0e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#portalBg)"/>
+  <text x="50" y="50" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">02 / FULL-STACK APPLICATION</text>
+  <text x="750" y="50" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">REACT · TAILWIND · NODE · MONGODB</text>
+
+  <g transform="translate(60, 85)">
+    <rect width="680" height="310" rx="6" fill="#141413" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <line x1="0" y1="42" x2="680" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="24" cy="21" r="4.5" fill="#e4ff00"/>
+    <circle cx="42" cy="21" r="4.5" fill="rgba(255,255,255,0.2)"/>
+    <circle cx="60" cy="21" r="4.5" fill="rgba(255,255,255,0.2)"/>
+    <text x="95" y="25" fill="#888885" font-family="monospace" font-size="11">complaint-management-portal.vercel.app</text>
+
+    <line x1="180" y1="42" x2="180" y2="310" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="22" y="65" width="136" height="10" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="22" y="90" width="100" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="22" y="110" width="115" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="22" y="130" width="90" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+    <g transform="translate(205, 62)">
+      <rect width="215" height="85" rx="4" fill="#1e1e1c" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <text x="16" y="24" fill="#888885" font-family="'Inter', sans-serif" font-size="10" font-weight="600" letter-spacing="1">REGISTERED TICKETS</text>
+      <text x="16" y="58" fill="#f5f5f3" font-family="'Inter', sans-serif" font-size="28" font-weight="800">248</text>
+      <text x="16" y="74" fill="#e4ff00" font-family="'Inter', sans-serif" font-size="10">● REAL-TIME STATUS SYNC</text>
+
+      <rect x="235" width="215" height="85" rx="4" fill="#1e1e1c" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <text x="251" y="24" fill="#888885" font-family="'Inter', sans-serif" font-size="10" font-weight="600" letter-spacing="1">ADMIN CONTROLS</text>
+      <text x="251" y="58" fill="#f5f5f3" font-family="'Inter', sans-serif" font-size="16" font-weight="700">JWT AUTH &amp; RBAC</text>
+      <text x="251" y="74" fill="#888885" font-family="'Inter', sans-serif" font-size="10">EXPRESS + MONGODB ATLAS</text>
+
+      <g transform="translate(0, 105)">
+        <rect width="450" height="115" rx="4" fill="#191918" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="16" y="32" fill="#e4ff00" font-family="monospace" font-size="11">#TKT-9204  [IN PROGRESS]  DEPARTMENT LAB A</text>
+        <line x1="16" y1="46" x2="434" y2="46" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="16" y="70" fill="#888885" font-family="monospace" font-size="11">#TKT-9198  [RESOLVED]     HOSTEL WIFI GATEWAY</text>
+        <line x1="16" y1="84" x2="434" y2="84" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="16" y="104" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="11">#TKT-9190  [ASSIGNED]     PORTAL QUERY MODULE</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="50" y="445" fill="rgba(255,255,255,0.03)" font-family="'Inter', sans-serif" font-size="80" font-weight="900" letter-spacing="-3">PORTAL</text>
+  <text x="750" y="445" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">APRIL 2026</text>
+</svg>

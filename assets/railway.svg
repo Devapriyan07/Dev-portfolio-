@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="railBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181817"/>
+      <stop offset="100%" stop-color="#0f0f0e"/>
+    </linearGradient>
+    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e4ff00" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.5"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="480" fill="url(#railBg)"/>
+  <rect width="800" height="480" fill="url(#dotGrid)"/>
+  <text x="50" y="50" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">01 / DATA ANALYTICS &amp; VISUALIZATION</text>
+  <text x="750" y="50" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="2">PYTHON · PANDAS · SEABORN</text>
+
+  <g transform="translate(60, 60)">
+    <line x1="0" y1="120" x2="680" y2="120" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    <line x1="0" y1="190" x2="680" y2="190" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    <line x1="0" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+    <circle cx="340" cy="190" r="120" fill="none" stroke="rgba(228,255,0,0.12)" stroke-width="1" stroke-dasharray="4,4"/>
+    <circle cx="340" cy="190" r="60" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+    <path d="M 30 260 C 140 260, 200 120, 340 120 C 480 120, 530 190, 650 190" fill="none" stroke="url(#curveGrad)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 30 190 C 160 190, 220 260, 420 260 C 520 260, 560 120, 650 120" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="6,6"/>
+
+    <circle cx="30" cy="260" r="6" fill="#0f0f0e" stroke="#e4ff00" stroke-width="2.5"/>
+    <circle cx="340" cy="120" r="7" fill="#e4ff00"/>
+    <circle cx="650" cy="190" r="6" fill="#0f0f0e" stroke="#e4ff00" stroke-width="2.5"/>
+
+    <g transform="translate(260, 65)">
+      <rect width="160" height="34" rx="4" fill="#20201e" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="80" y="21" text-anchor="middle" fill="#e4ff00" font-family="'Inter', sans-serif" font-size="11" font-weight="700" letter-spacing="1">DELAY DEVIATION Δ</text>
+    </g>
+
+    <text x="30" y="295" fill="#888885" font-family="monospace" font-size="10">ORIGIN_STA</text>
+    <text x="340" y="295" text-anchor="middle" fill="#888885" font-family="monospace" font-size="10">INTERMEDIATE_JUNCTIONS</text>
+    <text x="650" y="295" text-anchor="end" fill="#888885" font-family="monospace" font-size="10">DEST_TERMINAL</text>
+  </g>
+
+  <text x="50" y="445" fill="rgba(255,255,255,0.03)" font-family="'Inter', sans-serif" font-size="80" font-weight="900" letter-spacing="-3">RAILWAYS</text>
+  <text x="750" y="445" text-anchor="end" fill="#888885" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">MAY 2026</text>
+</svg>
