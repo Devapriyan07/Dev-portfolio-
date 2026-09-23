@@ -1,4 +1,4 @@
-﻿/* ═══════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════
    DEVAPRIYAN C.M — VILLO-STYLE PORTFOLIO
    style.css
 ═══════════════════════════════════════════════════════ */
@@ -655,8 +655,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 600px) {
   .hero-inner { padding: 3rem 1.25rem 5rem; }
   .hero-name { font-size: clamp(48px, 13vw, 80px); }
-  .hero-portrait-wrap { position: relative; top: auto; right: auto; transform: none; width: 70%; margin: 0 auto 2rem; animation: none; }
-  .hero-portrait-frame { animation: none; border-radius: 120px; }
+  .hero-portrait-wrap { position: relative; top: auto; right: auto; transform: none; width: 70%; margin: 0 auto 2rem; animation: none; opacity: 1; }
+  .hero-portrait-frame { animation: none; border-radius: 0; }
   .hero-bottom { flex-direction: column; align-items: flex-start; }
   .hero-cta-row { margin-right: 0; }
   .hero-scroll { left: .25rem; bottom: 1.25rem; }
@@ -1412,9 +1412,9 @@ body::after {
   }
 
   .hero-portrait-frame {
-    /* The supplied image is 1136x1385. Match its exact ratio so
+    /* The supplied image is 964x1378. Match its exact ratio so
        object-fit never trims the top, bottom, left, or right. */
-    aspect-ratio: 1136 / 1385;
+    aspect-ratio: 964 / 1378;
     max-height: none;
     overflow: hidden;
   }
@@ -1449,7 +1449,7 @@ body::after {
   }
 
   .hero-portrait-frame {
-    aspect-ratio: 1136 / 1385;
+    aspect-ratio: 964 / 1378;
     max-height: none;
   }
 
@@ -1469,7 +1469,7 @@ body::after {
   }
 
   .hero-portrait-frame {
-    aspect-ratio: 1136 / 1385;
+    aspect-ratio: 964 / 1378;
     max-height: none;
   }
 
