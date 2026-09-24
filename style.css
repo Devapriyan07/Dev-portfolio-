@@ -1412,9 +1412,9 @@ body::after {
   }
 
   .hero-portrait-frame {
-    /* The supplied image is 964x1378. Match its exact ratio so
+    /* The supplied image is 1136x1385. Match its exact ratio so
        object-fit never trims the top, bottom, left, or right. */
-    aspect-ratio: 964 / 1378;
+    aspect-ratio: 1136 / 1385;
     max-height: none;
     overflow: hidden;
   }
@@ -1449,7 +1449,7 @@ body::after {
   }
 
   .hero-portrait-frame {
-    aspect-ratio: 964 / 1378;
+    aspect-ratio: 1136 / 1385;
     max-height: none;
   }
 
@@ -1469,7 +1469,7 @@ body::after {
   }
 
   .hero-portrait-frame {
-    aspect-ratio: 964 / 1378;
+    aspect-ratio: 1136 / 1385;
     max-height: none;
   }
 
